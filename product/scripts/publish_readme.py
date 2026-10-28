@@ -24,7 +24,7 @@ from capture_readme_frames import FRAMES, SOURCE_SHA256
 ROOT = Path(__file__).resolve().parents[2]
 SHOWCASE_SOURCE = ROOT / 'SHOWCASE.md'
 BUILD = ROOT / 'product/build/readme'
-REPOSITORY = 'https://github.com/Jackey0903/BroadcastCode-2026/blob/main/'
+REPOSITORY = 'https://github.com/imhaojie/GameBuddy/blob/main/'
 IMAGE_SOURCE = 'product/broadcast-fx/formal/previews/contact.jpg'
 IMAGE_KEY = 'readme-assets/overview.jpg'
 IMAGE_ASSETS = {IMAGE_SOURCE: IMAGE_KEY} | {

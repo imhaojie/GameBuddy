@@ -73,14 +73,14 @@ S3 / CloudFront → GameBuddy 观赛网页
 <table>
   <tr>
     <td width="50%" align="center">
-      <a href="https://github.com/imhaojie/BroadcastCode-2026/releases/download/presentation-demos/gamebuddy-possession-demo.mp4"><img src="docs/assets/project/presentation-possession.jpg" alt="回合解读视频" /></a>
+      <a href="https://github.com/imhaojie/GameBuddy/releases/download/presentation-demos/gamebuddy-possession-demo.mp4"><img src="docs/assets/project/presentation-possession.jpg" alt="回合解读视频" /></a>
       <br/><strong>回合解读</strong> · 55 秒
-      <br/><a href="https://github.com/imhaojie/BroadcastCode-2026/releases/download/presentation-demos/gamebuddy-possession-demo.mp4">观看 / 下载</a>
+      <br/><a href="https://github.com/imhaojie/GameBuddy/releases/download/presentation-demos/gamebuddy-possession-demo.mp4">观看 / 下载</a>
     </td>
     <td width="50%" align="center">
-      <a href="https://github.com/imhaojie/BroadcastCode-2026/releases/download/presentation-demos/gamebuddy-introduction.mp4"><img src="docs/assets/project/presentation-introduction.jpg" alt="GameBuddy 介绍视频" /></a>
+      <a href="https://github.com/imhaojie/GameBuddy/releases/download/presentation-demos/gamebuddy-introduction.mp4"><img src="docs/assets/project/presentation-introduction.jpg" alt="GameBuddy 介绍视频" /></a>
       <br/><strong>GameBuddy 介绍</strong> · 55 秒
-      <br/><a href="https://github.com/imhaojie/BroadcastCode-2026/releases/download/presentation-demos/gamebuddy-introduction.mp4">观看 / 下载</a>
+      <br/><a href="https://github.com/imhaojie/GameBuddy/releases/download/presentation-demos/gamebuddy-introduction.mp4">观看 / 下载</a>
     </td>
   </tr>
 </table>
@@ -276,8 +276,8 @@ Worker 使用单并发与批次 1 控制生成资源和推理预算。可选语�
 需要 **Python 3.11+**；推荐近期桌面 Chrome 或 Edge。前端采用原生 ESM，默认本地预览不需要安装 npm 依赖，也不需要 AWS 账号。
 
 ```bash
-git clone https://github.com/imhaojie/BroadcastCode-2026.git
-cd BroadcastCode-2026
+git clone https://github.com/imhaojie/GameBuddy.git
+cd GameBuddy
 python3 product/watch/preview.py --port 4178
 ```
 
@@ -341,7 +341,7 @@ python3 product/rl/train_evidence.py --dry-run --out product/build/rl-plan
 | 质量检查 | Python unittest、Node test runner、离线 CDK 合成 |
 
 ```text
-BroadcastCode-2026/
+GameBuddy/
 ├── product/                  # 当前产品与部署工程
 │   ├── watch/                # 玻璃播放器、三态布局与观赛交互
 │   ├── web/                  # 像素风展示与历史创作界面

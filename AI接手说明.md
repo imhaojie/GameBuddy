@@ -1,6 +1,6 @@
 # GameBuddy · 当前维护交接
 
-2026-10-14。比赛已经结束，用户确认 **Team02 获得银奖**。当前工作转为仓库整理与开源文档，主入口是 [README.md](README.md)。原逐轮交接完整保留在[比赛期间接手说明](docs/archive/competition-2026/AI接手说明-比赛期间.md)，协同日志在[归档目录](docs/archive/competition-2026/README.md)。
+2026-10-28。比赛已经结束，用户确认 **Team02 获得银奖**。当前工作转为仓库整理与开源文档，主入口是 [README.md](README.md)。原逐轮交接完整保留在[比赛期间接手说明](docs/archive/competition-2026/AI接手说明-比赛期间.md)，协同日志在[归档目录](docs/archive/competition-2026/README.md)。
 
 ## 当前结构
 
@@ -13,7 +13,8 @@
 - 比赛合影原样保存，新首页配图从最终英文 55 秒答辩片截取；来源见 `docs/assets/project/sources.json`。
 - 用户提供的 `最终.pptx` 第 6、8 页内嵌回合解读与 GameBuddy 介绍视频。展示视频通过 GitHub Releases 的 `presentation-demos` 发布，README 用封面图链接；文件身份与转换记录见 `docs/assets/project/presentation-videos.json`。原 PPT 和视频保留本地，不加入 Git。
 - 旧 `BroadcastCode-backups/` 目录已按用户要求从工作区移走；历史文档中提到的该目录只是当时的存档记录，不可作为当前恢复路径。
-- 旧私有 GitHub 仓库 `Jackey0903/BroadcastCode` 已按用户要求删除；当前项目为 `imhaojie/BroadcastCode-2026`，旧 `Jackey0903/BroadcastCode-2026` 地址仍重定向到它。
+- GitHub 仓库已于 2026-10-28 按用户要求更名为 `imhaojie/GameBuddy`，`origin` 为 `https://github.com/imhaojie/GameBuddy.git`。本地工作目录仍为 `/Users/jack/work/BroadcastCode`。
+- 旧私有仓库 `Jackey0903/BroadcastCode` 已删除；比赛期间的仓库名 `BroadcastCode-2026` 保留在历史记录中。
 
 ## 维护时必须保留的事实
 

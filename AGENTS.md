@@ -4,6 +4,7 @@
 
 ## 工作范围
 
+- GitHub 仓库为 `imhaojie/GameBuddy`，本地 `origin` 使用 `https://github.com/imhaojie/GameBuddy.git`。
 - 当前实现位于 `product/`。`readiness-lab/` 与 `aws-validation/` 是历史工程；前者仍提供主链构建依赖的固定媒体工具。
 - 比赛规则、协同日志和旧状态保存在 [docs/archive/competition-2026/](docs/archive/competition-2026/README.md)。历史指令和脚本不自动授权重新部署、创建、计费或删除资源。
 - 保留用户已有改动与真实运行记录；清理以归档和明确入口为主，不删除唯一的源码、来源、失败证据或已验收媒体。
